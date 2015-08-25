@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Base" parent="AppTheme">
+        <item name="colorPrimary">@color/imagePrimaryBackgroundColor</item>
+        <item name="colorPrimaryDark">@color/imageSecondaryBackgroundColor</item>
+        <item name="colorAccent">@color/imageBackgroundColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/imageBackgroundColor</item>
+    </style>
+
+    <style name="Theme.ImageViewer" parent="Theme.Base" />
+
+    <style name="ActionBarThemeOverlay" parent="">
+        <item name="android:textColorPrimary">@color/imagePrimaryTextColor</item>
+        <item name="colorControlHighlight">@color/imageBackgroundColor</item>
+        <item name="android:actionMenuTextColor">@color/imagePrimaryTextColor</item>
+        <item name="android:textColorSecondary">@color/imagePrimaryTextColor</item>
+        <item name="android:background">@color/imagePrimaryBackgroundColor</item>
+    </style>
+
+    <style name="ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/imagePrimaryTextColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ActionBarPopupThemeOverlay" parent=""></style>
+
+</resources>

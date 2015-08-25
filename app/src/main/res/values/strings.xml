@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImageViewer</string>
+    <string name="title_activity_view_photo_details">Photo Details</string>
+    <string name="my_photos">My Photos</string>
+</resources>

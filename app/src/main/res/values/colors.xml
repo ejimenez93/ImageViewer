@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="imagePrimaryBackgroundColor">@color/md_blue_grey_700</color>
+    <color name="imageSecondaryBackgroundColor">@color/md_blue_grey_900</color>
+    <color name="imageBackgroundColor">@color/md_white_1000</color>
+    <color name="imagePrimaryTextColor">@color/md_white_1000</color>
+    <color name="imageSecondaryTextColor">@color/md_black_1000</color>
+</resources>
